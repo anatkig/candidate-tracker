@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: candidate-tracker-api
-    plan: free
-    buildCommand: dotnet publish -c Release -o out
-    startCommand: dotnet out/CandidateTracker.API.dll
-    rootDir: backend/CandidateTracker.API
