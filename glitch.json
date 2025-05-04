@@ -1,0 +1,4 @@
+{
+  "install": "echo 'nothing to install'",
+  "start": "docker build -t candidate-tracker . && docker run -p 3000:3000 candidate-tracker"
+}
