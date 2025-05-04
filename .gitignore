@@ -1,0 +1,22 @@
+# Node.js dependencies (frontend)
+frontend/**/node_modules/
+frontend/**/build/
+frontend/**/.env
+frontend/**/.env.local
+
+# .NET build artifacts (backend)
+backend/**/bin/
+backend/**/obj/
+backend/**/candidates.db
+backend/**/appsettings.Development.json
+backend/**/appsettings.*.json.user
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
